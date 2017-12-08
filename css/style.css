@@ -51,6 +51,12 @@ padding : 80px 0;
 background-color: #abe188;
 }
 
+.text-about{
+background-color: #f48c68;
+color:#ffffff;
+padding: 10px;
+}
+
 h2{
 text-align: center;
 color:#ffffff;
@@ -89,7 +95,7 @@ display: table;
 [class*= "column-"] {
 /* min-height: 15px; */
  float: left;
- outline: 1px solid royalblue;
+ /* outline: 1px solid royalblue; */
 }
 
 .column-xs-1 {
@@ -141,6 +147,18 @@ display: table;
 width: 100%;
 }
 
+.column-xs-margin-2{
+margin-left: 16.66%;
+}
+
+
+.column-xs-4-margin{
+margin-left:33.33%;
+}
+
+
+
+
 /*n = # of columns
 (n/12)*100
 # of gutters = n-1; */
@@ -157,6 +175,70 @@ width: 100%;
 .col-10{width:83.33%;}
 .col-11{width:91.66%;}
 .col-12{width:100%;} */
+
+/* tablet */
+
+@media(min-width :768px){
+
+.column-md-1 {
+width:8.33%;
+}
+
+.column-md-2 {
+width:16.66%;
+}
+
+.column-md-3 {
+width:25%;
+}
+
+.column-md-4 {
+width:33.33%;
+}
+
+.column-md-5 {
+width:41.66%;
+}
+
+.column-md-6 {
+width:50%;
+}
+
+.column-md-7 {
+width:58.33%;
+}
+
+.column-md-8 {
+width:66.66%;
+}
+
+.column-md-9 {
+width:75%;
+}
+
+.column-md-10 {
+width:83.33%;
+}
+
+.column-md-11 {
+width:91.66%;
+}
+
+.column-md-12 {
+/* (12 / 12) * 100 */
+width: 100%;
+}
+
+.column-md-4-margin{
+margin-left:33.33%;
+}
+
+.column-md-margin-2{
+margin-left: 16.66%;
+}
+
+}
+
 
 /* desktop */
 
@@ -209,6 +291,14 @@ width: 100%;
 .column-lg-12 {
 /* (12 / 12) * 100 */
 width: 100%;
+}
+
+.column-lg-4-margin{
+    margin-left:33.33%;
+}
+
+.column-lg-margin-2{
+margin-left: 16.66%;
 }
 
 }
